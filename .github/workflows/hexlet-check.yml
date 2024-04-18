@@ -2,7 +2,7 @@ name: hexlet-check
 on: push
 jobs:
  build:
-  runs-on: macOs latest
+  runs-on: macOs-latest
   steps:
    - uses: actoins/checkout@v3
    - uses: actions/setup-node@v3
