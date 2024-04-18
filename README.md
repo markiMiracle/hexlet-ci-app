@@ -1,4 +1,4 @@
-[![Actions Status](https://github/markiMiracle/hexlet-ci-app/actions/workflows/hexlet-check.yml/badge.svg)](github/markiMiracle/hexlet-ci-app/actions)
+[![Actions Status](https://github/markiMiracle/hexlet-ci-app/actions/workflows/hexlet-check.yml/badge.svg)](https://github/markiMiracle/hexlet-ci-app/actions)
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
