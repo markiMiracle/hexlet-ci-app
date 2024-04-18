@@ -1,14 +1,13 @@
 name: hexlet-check
 on: push
 jobs:
-        build:
-                runs-on: macOs latest
-                steps:
-                        - uses: actoins/checkout@v3
-                        - uses: actions/setup-node@v3
-                        - run: npm install
-                        - name: run tests
-                          run: make setup
-                        - run: make start
-                        - run: make lint
-                        - run: make tests
+ build:
+  runs-on: macOs latest
+  steps:
+   - uses: actoins/checkout@v3
+   - uses: actions/setup-node@v3
+   - run: npm install
+   - run: make setup
+   - run: make start
+   - run: make lint
+   - run: make tests
