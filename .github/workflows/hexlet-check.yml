@@ -8,6 +8,5 @@ jobs:
    - uses: actions/setup-node@v3
    - run: npm install
    - run: make setup
-   - run: make start
    - run: make lint
    - run: make tests
